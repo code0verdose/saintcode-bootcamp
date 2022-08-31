@@ -1,0 +1,20 @@
+{
+	"version": 3,
+	"file": "style.css",
+	"sources": [
+		"sass/style.sass",
+		"sass/_vars.sass",
+		"sass/_lib.sass",
+		"sass/_settings.sass",
+		"sass/_header.sass"
+	],
+	"sourcesContent": [
+		"@import \"vars\";\n@import \"lib\";\n@import \"settings\";\n@import \"header\";\n",
+		"$main: rgba(57, 72, 61, 1);         //Main green color\n$main-dark: rgba(37, 46, 39, 1);    //Darken green color\n$second: rgba(63, 57, 72, 1);       //Light violet color\n$second-dark: rgba(35, 39, 53, 1);  //Darken violet color\n$middle: rgba(62, 43, 46, 1);       //Middle brown color\n",
+		".btn {\n  cursor: pointer;\n  border: none;\n  background-color: inherit;\n  color: inherit;\n  font-family: 'JetBrains Mono', monospace;\n  font-size: 1em;\n  line-height: 1.5;\n  font-weight: 600; }\n",
+		"@import \"vars\";\n\n* {\n  box-sizing: border-box;\n  margin: 0;\n  padding: 0; }\n\nhtml {\n  font-size: 16px; }\n\nbody {\n  background-color: $main;\n  font-family: 'JetBrains Mono', monospace; }\n\na {\n  text-decoration: none;\n  color: inherit; }\n\nul {\n  list-style-type: none; }\n",
+		".header {\n  padding-top: 2em;\n  font-family: 'JetBrains Mono', monospace;\n  font-weight: 600;\n  color: #fff;\n  &__wrapper {\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    max-width: 95%;\n    margin: 0 auto; } }\n.left-side {\n  display: flex;\n  align-items: center;\n  gap: 2.5em; }\n\n.logo {\n  &__img {\n    width: 100%;\n    height: auto;\n    display: block; } }\n\n.right-side {\n  display: flex;\n  align-items: center;\n  gap: 2.5em; }\n\n.nav {\n  &__list {\n    display: flex;\n    gap: 1.5em; }\n  &__link {\n    opacity: .4;\n    transition: opacity .3s ease-in-out;\n    &:hover {\n      opacity: 1;\n      transition: opacity .3s ease-in-out; } } }\n\n.btn--call {\n  background-color: #59F881;\n  padding: 15px 25px;\n  color: rgba(2, 3, 3, 1);\n  transition: background-color 0.2s ease-in-out;\n  &:hover {\n    background-color: #75ff9c;\n    transition: background-color 0.2s ease-in-out; } }\n"
+	],
+	"names": [],
+	"mappings": ";AEAA,AAAA,IAAI,CAAC;EACH,MAAM,EAAE,OAAO;EACf,MAAM,EAAE,IAAI;EACZ,gBAAgB,EAAE,OAAO;EACzB,KAAK,EAAE,OAAO;EACd,WAAW,EAAE,2BAA2B;EACxC,SAAS,EAAE,GAAG;EACd,WAAW,EAAE,GAAG;EAChB,WAAW,EAAE,GAAG;CAAG;;;ACNrB,AAAA,CAAC,CAAC;EACA,UAAU,EAAE,UAAU;EACtB,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;CAAG;;;AAEf,AAAA,IAAI,CAAC;EACH,SAAS,EAAE,IAAI;CAAG;;;AAEpB,AAAA,IAAI,CAAC;EACH,gBAAgB,EFXX,OAAmB;EEYxB,WAAW,EAAE,2BAA2B;CAAG;;;AAE7C,AAAA,CAAC,CAAC;EACA,eAAe,EAAE,IAAI;EACrB,KAAK,EAAE,OAAO;CAAG;;;AAEnB,AAAA,EAAE,CAAC;EACD,eAAe,EAAE,IAAI;CAAG;;;ACnB1B,AAAA,OAAO,CAAC;EACN,WAAW,EAAE,GAAG;EAChB,WAAW,EAAE,2BAA2B;EACxC,WAAW,EAAE,GAAG;EAChB,KAAK,EAAE,IAAI;CAMU;;;AALpB,AAAD,gBAAU,CAAC;EACT,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,aAAa;EAC9B,WAAW,EAAE,MAAM;EACnB,SAAS,EAAE,GAAG;EACd,MAAM,EAAE,MAAM;CAAG;;;AACrB,AAAA,UAAU,CAAC;EACT,OAAO,EAAE,IAAI;EACb,WAAW,EAAE,MAAM;EACnB,GAAG,EAAE,KAAK;CAAG;;;AAGZ,AAAD,UAAM,CAAC;EACL,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;EACZ,OAAO,EAAE,KAAK;CAAG;;;AAErB,AAAA,WAAW,CAAC;EACV,OAAO,EAAE,IAAI;EACb,WAAW,EAAE,MAAM;EACnB,GAAG,EAAE,KAAK;CAAG;;;AAGZ,AAAD,UAAO,CAAC;EACN,OAAO,EAAE,IAAI;EACb,GAAG,EAAE,KAAK;CAAG;;;AACd,AAAD,UAAO,CAAC;EACN,OAAO,EAAE,EAAE;EACX,UAAU,EAAE,uBAAuB;CAGO;;;AAL3C,AAGC,UAHK,AAGJ,MAAM,CAAC;EACN,OAAO,EAAE,CAAC;EACV,UAAU,EAAE,uBAAuB;CAAG;;;AAE5C,AAAA,UAAU,CAAC;EACT,gBAAgB,EAAE,OAAO;EACzB,OAAO,EAAE,SAAS;EAClB,KAAK,EAAE,OAAgB;EACvB,UAAU,EAAE,iCAAiC;CAGO;;;AAPtD,AAKE,UALQ,AAKP,MAAM,CAAC;EACN,gBAAgB,EAAE,OAAO;EACzB,UAAU,EAAE,iCAAiC;CAAG"
+}
