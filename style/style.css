@@ -20,34 +20,41 @@
 /* line 8, ../../../../../Users/a1234/Desktop/SaintCodeProject/style/sass/_settings.sass */
 html {
   font-size: 16px;
+  scroll-behavior: smooth;
 }
 
-/* line 11, ../../../../../Users/a1234/Desktop/SaintCodeProject/style/sass/_settings.sass */
+/* line 12, ../../../../../Users/a1234/Desktop/SaintCodeProject/style/sass/_settings.sass */
 body {
   background-color: #39483d;
   font-family: 'JetBrains Mono', monospace;
 }
 
-/* line 15, ../../../../../Users/a1234/Desktop/SaintCodeProject/style/sass/_settings.sass */
+/* line 16, ../../../../../Users/a1234/Desktop/SaintCodeProject/style/sass/_settings.sass */
 a {
   text-decoration: none;
   color: inherit;
 }
 
-/* line 19, ../../../../../Users/a1234/Desktop/SaintCodeProject/style/sass/_settings.sass */
+/* line 20, ../../../../../Users/a1234/Desktop/SaintCodeProject/style/sass/_settings.sass */
 ul {
   list-style-type: none;
+}
+
+/* line 23, ../../../../../Users/a1234/Desktop/SaintCodeProject/style/sass/_settings.sass */
+.transparent {
+  opacity: .5;
 }
 
 /* line 1, ../../../../../Users/a1234/Desktop/SaintCodeProject/style/sass/_header.sass */
 .header {
   padding-top: 2em;
+  padding-bottom: 2em;
   font-family: 'JetBrains Mono', monospace;
   font-weight: 600;
   color: #fff;
 }
 
-/* line 6, ../../../../../Users/a1234/Desktop/SaintCodeProject/style/sass/_header.sass */
+/* line 7, ../../../../../Users/a1234/Desktop/SaintCodeProject/style/sass/_header.sass */
 .header__wrapper {
   display: flex;
   justify-content: space-between;
@@ -56,46 +63,52 @@ ul {
   margin: 0 auto;
 }
 
-/* line 12, ../../../../../Users/a1234/Desktop/SaintCodeProject/style/sass/_header.sass */
+/* line 14, ../../../../../Users/a1234/Desktop/SaintCodeProject/style/sass/_header.sass */
 .left-side {
   display: flex;
   align-items: center;
   gap: 2.5em;
 }
 
-/* line 18, ../../../../../Users/a1234/Desktop/SaintCodeProject/style/sass/_header.sass */
+/* line 19, ../../../../../Users/a1234/Desktop/SaintCodeProject/style/sass/_header.sass */
+.logo {
+  width: 160px;
+  height: 100%;
+}
+
+/* line 22, ../../../../../Users/a1234/Desktop/SaintCodeProject/style/sass/_header.sass */
 .logo__img {
   width: 100%;
-  height: auto;
+  height: 100%;
   display: block;
 }
 
-/* line 23, ../../../../../Users/a1234/Desktop/SaintCodeProject/style/sass/_header.sass */
+/* line 27, ../../../../../Users/a1234/Desktop/SaintCodeProject/style/sass/_header.sass */
 .right-side {
   display: flex;
   align-items: center;
   gap: 2.5em;
 }
 
-/* line 29, ../../../../../Users/a1234/Desktop/SaintCodeProject/style/sass/_header.sass */
+/* line 33, ../../../../../Users/a1234/Desktop/SaintCodeProject/style/sass/_header.sass */
 .nav__list {
   display: flex;
   gap: 1.5em;
 }
 
-/* line 32, ../../../../../Users/a1234/Desktop/SaintCodeProject/style/sass/_header.sass */
+/* line 36, ../../../../../Users/a1234/Desktop/SaintCodeProject/style/sass/_header.sass */
 .nav__link {
   opacity: .4;
   transition: opacity .3s ease-in-out;
 }
 
-/* line 35, ../../../../../Users/a1234/Desktop/SaintCodeProject/style/sass/_header.sass */
+/* line 39, ../../../../../Users/a1234/Desktop/SaintCodeProject/style/sass/_header.sass */
 .nav__link:hover {
   opacity: 1;
   transition: opacity .3s ease-in-out;
 }
 
-/* line 39, ../../../../../Users/a1234/Desktop/SaintCodeProject/style/sass/_header.sass */
+/* line 43, ../../../../../Users/a1234/Desktop/SaintCodeProject/style/sass/_header.sass */
 .btn--call {
   background-color: #59F881;
   padding: 15px 25px;
@@ -103,10 +116,58 @@ ul {
   transition: background-color 0.2s ease-in-out;
 }
 
-/* line 44, ../../../../../Users/a1234/Desktop/SaintCodeProject/style/sass/_header.sass */
+/* line 48, ../../../../../Users/a1234/Desktop/SaintCodeProject/style/sass/_header.sass */
 .btn--call:hover {
   background-color: #75ff9c;
   transition: background-color 0.2s ease-in-out;
+}
+
+/* line 1, ../../../../../Users/a1234/Desktop/SaintCodeProject/style/sass/_hero.sass */
+.hero {
+  padding-top: 92px;
+  padding-bottom: 101px;
+}
+
+/* line 4, ../../../../../Users/a1234/Desktop/SaintCodeProject/style/sass/_hero.sass */
+.hero__container {
+  max-width: 80vw;
+  margin: 0 auto 3.5em auto;
+}
+
+/* line 7, ../../../../../Users/a1234/Desktop/SaintCodeProject/style/sass/_hero.sass */
+.hero__title {
+  font-weight: 800;
+  font-size: 56px;
+  line-height: 1.2;
+  color: #FFF;
+}
+
+/* line 12, ../../../../../Users/a1234/Desktop/SaintCodeProject/style/sass/_hero.sass */
+.hero__image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* line 16, ../../../../../Users/a1234/Desktop/SaintCodeProject/style/sass/_hero.sass */
+.hero__info {
+  display: flex;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 1.2;
+  max-width: 95vw;
+  margin: 0 auto;
+  padding: 1.5em;
+  color: #FFF;
+  background-color: #2c382f;
+  align-items: baseline;
+}
+
+/* line 29, ../../../../../Users/a1234/Desktop/SaintCodeProject/style/sass/_hero.sass */
+.img__container {
+  display: block;
+  height: 100%;
+  margin-right: 1em;
 }
 
 /*# sourceMappingURL=style.css.map */
