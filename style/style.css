@@ -34,6 +34,11 @@ ul {
   opacity: .5;
 }
 
+/* line 28, ../../../../../Users/a1234/Desktop/SaintCodeProject/style/sass/_settings.sass */
+.transparent--blue {
+  color: #51576b;
+}
+
 /* line 2, ../../../../../Users/a1234/Desktop/SaintCodeProject/style/sass/_lib.sass */
 .btn {
   cursor: pointer;
@@ -80,6 +85,11 @@ ul {
 /* line 26, ../../../../../Users/a1234/Desktop/SaintCodeProject/style/sass/_settings.sass */
 .transparent {
   opacity: .5;
+}
+
+/* line 28, ../../../../../Users/a1234/Desktop/SaintCodeProject/style/sass/_settings.sass */
+.transparent--blue {
+  color: #51576b;
 }
 
 /* line 1, ../../../../../Users/a1234/Desktop/SaintCodeProject/style/sass/_header.sass */
@@ -205,6 +215,51 @@ ul {
   height: 100%;
   margin-right: 2.82885vw;
   margin-top: 1.20226vw;
+}
+
+/* line 1, ../../../../../Users/a1234/Desktop/SaintCodeProject/style/sass/_for-who.sass */
+.for-who {
+  padding-top: 7.07214vw;
+  padding-bottom: 21.99434vw;
+  background-color: #232735;
+}
+
+/* line 5, ../../../../../Users/a1234/Desktop/SaintCodeProject/style/sass/_for-who.sass */
+.for-who__container {
+  max-width: 82.03678vw;
+  margin: 0 auto;
+}
+
+/* line 8, ../../../../../Users/a1234/Desktop/SaintCodeProject/style/sass/_for-who.sass */
+.for-who__title {
+  font-size: 4.80905vw;
+  font-weight: 800;
+  line-height: 1.2;
+  margin-bottom: 4.9505vw;
+}
+
+/* line 13, ../../../../../Users/a1234/Desktop/SaintCodeProject/style/sass/_for-who.sass */
+.for-who__wrapper {
+  display: flex;
+  justify-content: start;
+  gap: 8.06223vw;
+}
+
+/* line 17, ../../../../../Users/a1234/Desktop/SaintCodeProject/style/sass/_for-who.sass */
+.for-who__text {
+  font-size: 1.83876vw;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+/* line 21, ../../../../../Users/a1234/Desktop/SaintCodeProject/style/sass/_for-who.sass */
+.for-who__img-container {
+  margin-bottom: 2.12164vw;
+}
+
+/* line 25, ../../../../../Users/a1234/Desktop/SaintCodeProject/style/sass/_for-who.sass */
+.focus {
+  color: #738ada;
 }
 
 /*# sourceMappingURL=style.css.map */
