@@ -1,9 +1,16 @@
 .header
-  padding-top: 2em
-  padding-bottom: 2em
+  padding-top: vw(32)
+  padding-bottom: vw(32)
   font-family: 'JetBrains Mono', monospace
   font-weight: 600
-  color: #fff
+  &--left
+    display: flex
+    align-items: center
+    gap: vw(40)
+  &--right
+    display: flex
+    align-items: center
+    gap: vw(40)
   &__wrapper
     display: flex
     justify-content: space-between
@@ -11,28 +18,18 @@
     max-width: 95%
     margin: 0 auto
 
-.left-side
-  display: flex
-  align-items: center
-  gap: 2.5em
-
 .logo
-  width: 160px
+  width: vw(160)
   height: 100%
   &__img
     width: 100%
     height: 100%
     display: block
 
-.right-side
-  display: flex
-  align-items: center
-  gap: 2.5em
-
 .nav
   &__list
     display: flex
-    gap: 1.5em
+    gap: vw(24)
   &__link
     opacity: .4
     transition: opacity .3s ease-in-out
@@ -42,7 +39,7 @@
     
 .btn--call
   background-color: #59F881
-  padding: 15px 25px
+  padding: vw(15) vw(25)
   color: rgba(2, 3, 3, 1)
   transition: background-color 0.2s ease-in-out
   &:hover

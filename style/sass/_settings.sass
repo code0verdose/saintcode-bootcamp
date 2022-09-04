@@ -1,4 +1,6 @@
 @import "vars"
+@function vw($value, $base: 1414)
+  @return $value / $base * 100vw
 
 *
   box-sizing: border-box
@@ -6,12 +8,13 @@
   padding: 0
 
 html
-  font-size: 16px
+  font-size: vw(16)
   scroll-behavior: smooth
 
 body
   background-color: $main
   font-family: 'JetBrains Mono', monospace
+  color: #fff
 
 a
   text-decoration: none

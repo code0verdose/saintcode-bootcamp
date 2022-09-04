@@ -16,7 +16,7 @@
 <body>
 <header class="header">
     <div class="header__wrapper">
-        <div class="left-side">
+        <div class="header--left">
             <a href="">
                 <div class="logo">
                     <img class="logo__img" src="./images/logo.svg" alt="SaintCode - Logo" width="160" height="64">
@@ -26,14 +26,14 @@
                 <a href="tel:+79956263080">+7 995 626 3080</a>
             </div>
         </div>
-        <div class="right-side">
+        <div class="header--right">
             <div class="nav-wrapper">
                 <nav class="nav">
                     <ul class="nav__list">
-                        <li><a href="#" class="nav__link">О школе</a></li>
-                        <li><a href="#" class="nav__link">Подготовительная программа</a></li>
-                        <li><a href="#" class="nav__link">ЧАВО</a></li>
-                        <li><a href="#" class="nav__link">Блог</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">О школе</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">Подготовительная программа</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">ЧАВО</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">Блог</a></li>
                     </ul>
                 </nav>
             </div>
@@ -44,20 +44,46 @@
     </div>
 </header>
 <main>
-    <section class="hero">
+    <section class="hero" id="hero">
         <div class="hero__container">
             <h1 class="hero__title">Перезапусти карьеру<span class="transparent"> —— <br/>научись программировать</span>
             </h1>
         </div>
         <article class="hero__info">
             <div class="img__container">
-                <img src="./images/Subtract.svg" alt="----" class="hero__image" width="96" height="12">
+                <img src="./images/hero/Subtract.svg" alt="----" class="hero__image" width="96" height="12">
             </div>
             <div class="info__text">
-                <p>Школа программирования<br/> <span class="transparent">для веб-разработчиков в формате буткемпа:</span><br/> с 0 до Junior за 3 месяца,<br/> <span class="transparent">вживую в
+                <p>Школа программирования<br/> <span
+                        class="transparent">для веб-разработчиков в формате буткемпа:</span><br/> с 0 до Junior за 3
+                    месяца,<br/> <span class="transparent">вживую в
                     СПб или онлайн из любой точки</span></p>
             </div>
         </article>
+    </section>
+    <section class="for-who" id="for">
+        <div class="for-who__container">
+            <h2 class="for-who__title"><span class="transparent">Тебе</span> подходит <span class="transparent">наш формат,</span>
+                если ты:</h2>
+            <div class="for-who--left">
+                <div class="for-who__img-container">
+                    <img src="./images/for-who/first-icon.svg" width="60" height="60" alt="icon" class="for-who__img">
+                </div>
+                <div class="for-who__text-container">
+                    <p class="for-who__text">Хочешь <span class="focus">быстро найти первую работу</span> разработчиком</p>
+                </div>
+            </div>
+            <div class="for-who--right">
+                <div class="for-who__img-container">
+                    <img src="./images/for-who/second-icon.svg" width="60" height="60" alt="icon" class="for-who__img">
+                </div>
+                <div class="for-who__text-container">
+                    <p class="for-who__text">Готов учиться пять дней в неделю с 9.00 до 19.00, пахать как раб на
+                        галерах, <span class="focus">чтобы освоить за три месяца программу</span>, которую другие осваивают за полтора года
+                    </p>
+                </div>
+            </div>
+        </div>
     </section>
 </main>
 </body>
