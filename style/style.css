@@ -255,11 +255,105 @@ ul {
 /* line 21, ../../../../../Users/a1234/Desktop/SaintCodeProject/style/sass/_for-who.sass */
 .for-who__img-container {
   margin-bottom: 2.12164vw;
+  width: 4.24328vw;
+  height: auto;
+  display: block;
 }
 
-/* line 25, ../../../../../Users/a1234/Desktop/SaintCodeProject/style/sass/_for-who.sass */
+/* line 26, ../../../../../Users/a1234/Desktop/SaintCodeProject/style/sass/_for-who.sass */
+.for-who__img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+/* line 31, ../../../../../Users/a1234/Desktop/SaintCodeProject/style/sass/_for-who.sass */
 .focus {
   color: #738ada;
+}
+
+/* line 2, ../../../../../Users/a1234/Desktop/SaintCodeProject/style/sass/not-found.sass */
+.not-found__container {
+  max-width: 90%;
+  margin: 0 auto;
+  display: flex;
+  gap: 0 4.24328vw;
+  align-items: center;
+}
+
+/* line 8, ../../../../../Users/a1234/Desktop/SaintCodeProject/style/sass/not-found.sass */
+.not-found__img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  mix-blend-mode: luminosity;
+}
+
+/* line 13, ../../../../../Users/a1234/Desktop/SaintCodeProject/style/sass/not-found.sass */
+.not-found__img--tear {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+/* line 17, ../../../../../Users/a1234/Desktop/SaintCodeProject/style/sass/not-found.sass */
+.not-found__text {
+  display: flex;
+  flex-direction: column;
+}
+
+/* line 20, ../../../../../Users/a1234/Desktop/SaintCodeProject/style/sass/not-found.sass */
+.not-found__title {
+  font-weight: 800;
+  font-size: 4.80905vw;
+  line-height: 1.2;
+  margin-bottom: 0.42433vw;
+}
+
+/* line 25, ../../../../../Users/a1234/Desktop/SaintCodeProject/style/sass/not-found.sass */
+.not-found__subtitle {
+  font-family: 'Fira Code', 'JetBrains Mono', sans-serif;
+  font-weight: 700;
+  font-size: 1.83876vw;
+  line-height: 1.6;
+  margin-bottom: 2.68741vw;
+}
+
+/* line 31, ../../../../../Users/a1234/Desktop/SaintCodeProject/style/sass/not-found.sass */
+.not-found__to-home {
+  max-width: 14.14427vw;
+  background: #9FB7A5;
+  padding: 1.06082vw 2.9703vw;
+  font-weight: 700;
+  font-size: 1.13154vw;
+  line-height: 1.5;
+  text-align: center;
+  color: #020303;
+  opacity: 0.8;
+  transition: .3s ease-in-out;
+}
+
+/* line 42, ../../../../../Users/a1234/Desktop/SaintCodeProject/style/sass/not-found.sass */
+.not-found__to-home:hover {
+  background-color: #82a18a;
+  color: #FFF;
+  transition: .3s ease-in-out;
+}
+
+/* line 47, ../../../../../Users/a1234/Desktop/SaintCodeProject/style/sass/not-found.sass */
+.img-container {
+  width: 31.82461vw;
+  height: auto;
+  position: relative;
+}
+
+/* line 51, ../../../../../Users/a1234/Desktop/SaintCodeProject/style/sass/not-found.sass */
+.img-container--absolute {
+  position: absolute;
+  width: 1.76803vw;
+  height: auto;
+  left: 12.30552vw;
+  bottom: 12.5884vw;
 }
 
 /*# sourceMappingURL=style.css.map */

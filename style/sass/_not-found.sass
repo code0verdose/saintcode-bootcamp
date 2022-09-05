@@ -1,0 +1,56 @@
+.not-found
+  &__container
+    max-width: 90%
+    margin: 0 auto
+    display: flex
+    gap: 0 vw(60)
+    align-items: center
+  &__img
+    width: 100%
+    height: 100%
+    display: block
+    mix-blend-mode: luminosity
+    &--tear
+      width: 100%
+      height: 100%
+      display: block
+  &__text
+    display: flex
+    flex-direction: column
+  &__title
+    font-weight: 800
+    font-size: vw(68)
+    line-height: 1.2
+    margin-bottom: vw(6)
+  &__subtitle
+    font-family: 'Fira Code', 'JetBrains Mono', sans-serif
+    font-weight: 700
+    font-size: vw(26)
+    line-height: 1.6
+    margin-bottom: vw(38)
+  &__to-home
+    max-width: vw(200)
+    background: #9FB7A5
+    padding: vw(15) vw(42)
+    font-weight: 700
+    font-size: vw(16)
+    line-height: 1.5
+    text-align: center
+    color: #020303
+    opacity: 0.8
+    transition: .3s ease-in-out
+    &:hover
+      background-color: darken(#9FB7A5, 10)
+      color: #FFF
+      transition: .3s ease-in-out
+
+.img-container
+  width: vw(450)
+  height: auto
+  position: relative
+  &--absolute
+    position: absolute
+    width: vw(25)
+    height: auto
+    left: vw(174)
+    bottom: vw(178)
