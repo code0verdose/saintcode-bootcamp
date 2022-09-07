@@ -64,5 +64,17 @@
         </div>
     </section>
 </main>
+<script>
+    let tear = document.querySelector('.img-container--absolute');
+    let count = 0;
+
+    tear.addEventListener('click', () => {
+        count += 1;
+
+        if (count >= 5) {
+            return tear.innerHTML = '';
+        }
+    })
+</script>
 </body>
 </html>
